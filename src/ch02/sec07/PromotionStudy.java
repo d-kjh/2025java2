@@ -4,11 +4,10 @@ public class PromotionStudy {
     /*
     자동 타입 변환(promotion) : (숫자형 : 정수, 실수) 작은 타입이 큰 타입으로 대입될 때 발생
 
-    byte < short, char < long < float < double
+    byte < short, char < int < long < float < double
 
     (모든 타입 + String)이 되면 모든 타입이 String으로 파싱된다.
-    
-    
+
      */
     public static void main(String[] args) {
         byte byteVal = 10;
@@ -33,6 +32,7 @@ public class PromotionStudy {
         float floatVal2 = 100.4f;
         double doubleVal = floatVal2;
         System.out.println("doubleVal : " + doubleVal);
+
 
     }
 }
