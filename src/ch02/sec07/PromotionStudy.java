@@ -32,7 +32,7 @@ public class PromotionStudy {
         float floatVal2 = 100.4f;
         double doubleVal = floatVal2;
         System.out.println("doubleVal : " + doubleVal);
-
+        
 
     }
 }
