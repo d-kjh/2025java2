@@ -19,30 +19,30 @@ public class Mission02 {
         String str = scanner.next();
         int score = Integer.parseInt(str);
 
-        if (score > 100 || score < 0){
+        if (score > 100 || score < 0) {
             System.out.println("점수없음");
         } else {
-        switch ( score / 10 ) {
-            case 10, 9:
-                System.out.println("A");
-                break;
-            case 8:
-                System.out.println("B");
-                break;
+            switch (score / 10) {
+                case 10, 9:
+                    System.out.println("A");
+                    break;
+                case 8:
+                    System.out.println("B");
+                    break;
 
-            case 7:
-                System.out.println("C");
-                break;
-            default:
-                System.out.println("D");
-        }
+                case 7:
+                    System.out.println("C");
+                    break;
+                default:
+                    System.out.println("D");
+            }
 
-        int temp = score/10;
-        if (score > 100 || score <= 0 ) {
-            System.out.println("잘못된 점수");
-        }
-        else{
-            System.out.printf("%s", (temp>=9)? "A":  (temp==8)? "B":  (temp==7)? "C": "D" );
+            int temp = score / 10;
+            if (score > 100 || score <= 0) {
+                System.out.println("잘못된 점수");
+            } else {
+                System.out.printf("%s", (temp >= 9) ? "A" : (temp == 8) ? "B" : (temp == 7) ? "C" : "D");
+            }
         }
     }
 }
