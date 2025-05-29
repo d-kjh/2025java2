@@ -14,13 +14,12 @@ public class ArrayShuffleExample {
         0~9랜덤값 구한다 . ex. 7나옴 0~7 스와핑한다.
         0~9랜덤값 구한다 . ex. 8나옴 1~8 스와핑한다.
         0~9랜덤값 구한다 . ex. 5나옴 2~5 스와핑한다.
-
-         */
+        */
         for (int i = 0; i < arr.length; i++){
-            int ran = (int)(Math.random() * 10);
-            int temp = arr[ran];
-            arr[ran] = arr[i];
-            arr[i] = temp;
+            int ran = (int)(Math.random() * arr.length);
+            int temp = arr[i];
+            arr[i] = arr[ran];
+            arr[ran] = temp;
         }
         System.out.println(Arrays.toString(arr));
     }
