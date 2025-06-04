@@ -3,6 +3,8 @@ package ch06.sec04;
 public class Student {
     String name;
 
+    public Student() {}
+
     void introduce() {
         System.out.printf("안녕 내이름은 %s라고 해\n", this.name);
     }

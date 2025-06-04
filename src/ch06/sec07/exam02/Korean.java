@@ -4,12 +4,9 @@ public class Korean {
     String nation;
     String name;
     String ssn;
-
+    // this : 자기자신이 포함된 주소값의 상수
     public Korean(){
-        this.nation = "대한민국";
-        this.name = "신사임당";
-        this.ssn = "901022-2754312";
-        // this.("신사임당", "901022-2754312");
+        this("신사임당", "901022-2754312");
     }
     public Korean(String name, String ssn){
         this.nation = "대한민국";

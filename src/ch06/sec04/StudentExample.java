@@ -5,6 +5,9 @@ public class StudentExample {
         Student s1 = new Student();
         Student s2 = new Student();
 
+        s1.introduce();
+        s2.introduce();
+
         s1.name = "홍길동";
         s2.name = "신사임당";
 
