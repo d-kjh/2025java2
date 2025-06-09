@@ -8,9 +8,9 @@ public class Mission03Method {
         System.out.println("star : " + star);
         printSingleLine(star); // 5면 -> ***** 개행
         System.out.println("---------------------------");
-        printMultiLine(5);
+        printMultiLine(6);
         System.out.println("---------------------------");
-        printTriangleLine(4);
+        printTriangleLine(6);
     }
 
     public static void printSingleLine(int star){
@@ -25,9 +25,8 @@ public class Mission03Method {
         }
     }
     public static void printTriangleLine(int cnt) {
-        for (int i = 1; i<=cnt; i++) {
+        for (int i = 0; i<cnt; i++) {
             printSingleLine(i);
         }
-        System.out.println();
     }
 }
