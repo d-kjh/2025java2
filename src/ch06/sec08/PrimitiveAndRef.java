@@ -6,11 +6,11 @@ public class PrimitiveAndRef {
 		changeNum(num);
 		System.out.println("num : " + num); // 10
 
-		Numbox numbox = new Numbox();
-		numbox.num = 10;
-		changeNum(numbox);
+		Numbox aaa = new Numbox();
+		aaa.num = 10;
+		changeNum(aaa);
 
-		System.out.println("numbox.num : " + numbox.num); // 20
+		System.out.println("aaa.num : " + aaa.num); // 20
 	}
 	public static void changeNum(int num){
 		num = 20;
