@@ -10,5 +10,7 @@ public class SmartPhoneExample {
 		myPhone.bell();
 		myPhone.internet();
 		myPhone.hangUp();
+
+
 	}
 }
