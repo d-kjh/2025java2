@@ -10,11 +10,12 @@ public class ArrayCopyByForExample {
         for (int i = 0; i < oldIntArray.length; i++){
             oldIntArray[i] = i + 1;
         }
-        int[] newIntArray = new int[oldIntArray.length];
-
-        for (int i = 0; i < newIntArray.length; i++){
-            newIntArray[i] = oldIntArray[i];
-        }
+//        int[] newIntArray = new int[oldIntArray.length];
+//
+//        for (int i = 0; i < newIntArray.length; i++){
+//            newIntArray[i] = oldIntArray[i];
+//        }
+        int[] newIntArray = oldIntArray;
 
         System.out.println(Arrays.toString(oldIntArray)); //1,2,3
         System.out.println(Arrays.toString(newIntArray)); //1,2,3
