@@ -5,5 +5,11 @@ public class StaticCarExample {
 		StaticCar.model = "벤틀리";
 		StaticCar.setSpeed(200);
 		StaticCar.run();
+
+		StaticCar car1 = new StaticCar("BMW");
+		car1.setSpeed(100);
+		car1.run();
+
+		StaticCar.run();
 	}
 }
