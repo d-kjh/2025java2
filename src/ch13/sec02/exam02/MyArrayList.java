@@ -50,6 +50,14 @@ public class MyArrayList<T> {
 
     @Override
     public String toString() {
-        return Arrays.toString(arr);
+//        return Arrays.toString(arr);
+        StringBuilder sb = new StringBuilder("[");
+        if (size() > 0) {
+            sb.append(arr[0]);
+            for (int i = 1; i < size(); i++) {
+                sb.append(", ").append(arr[i]);
+            }
+        }
+        return sb.append("]").toString();
     }
 }
