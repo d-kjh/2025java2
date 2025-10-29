@@ -1,7 +1,6 @@
 package ch06.sec11;
 
 import java.io.PrintStream;
-//import ch06.sec04.*;
 
 public class FinalStudy {
 	public static void main(String[] args) {
