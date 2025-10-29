@@ -47,7 +47,7 @@ public class MyArrayList<T> {
         this.arr = newArr;
         return pop;
     }
-
+// 오버라이딩
     @Override
     public String toString() {
 //        return Arrays.toString(arr);
