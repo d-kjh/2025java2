@@ -1,6 +1,5 @@
 package ch07.sec07.poly;
 
-import javax.print.attribute.standard.PDLOverrideSupported;
 
 public class AnimalExample {
 	public static void main(String[] args) {
