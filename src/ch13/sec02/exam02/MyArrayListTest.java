@@ -1,7 +1,5 @@
 package ch13.sec02.exam02;
 
-import java.util.Arrays;
-
 public class MyArrayListTest {
     public static void main(String[] args) {
         MyArrayList<String> list = new MyArrayList<>();
